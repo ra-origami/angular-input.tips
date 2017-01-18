@@ -1,0 +1,20 @@
+{
+    "name": "angular-input.tips",
+    "version": "1.0.0",
+    "main": [
+		"./dist/bootstrap.ui.js"
+	],
+    "ignore": [
+        "tests",
+        "src",
+        ".gitignore",
+        "bower.json",
+        "gulpfile.js",
+        "package.json",
+        "README.md"
+    ],
+    "dependencies": {
+        "angular": ">=1.5.7"
+    },
+    "homepage": "https://github.com/ra-origami/angular-input.tips"
+}

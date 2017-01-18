@@ -1,0 +1,1 @@
+var app = angular.module('input-tips-test', ['input.tips']);

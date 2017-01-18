@@ -1,0 +1,27 @@
+.tips {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 100;
+}
+.tips.open {
+  display: inline-block;
+}
+.tips ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 10px;
+}
+.tips ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 3px 10px;
+}
+.tips ul li.selected {
+  background-color: #ececec;
+}
+.tips ul li.tips ul li:last-child {
+  border-bottom: 0px;
+}
